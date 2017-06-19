@@ -4,7 +4,7 @@ public class Employee {
 
 	private int id;
 	private String name;
-	priate double sal;
+	private double sal;
 	public int getId() {
 		return id;
 	}
@@ -17,9 +17,17 @@ public class Employee {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	public double getSal() {
+		return sal;
+	}
+	public void setSal(double sal) {
+		this.sal = sal;
+	}
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + "]";
+		return "Employee [id=" + id + ", name=" + name + ", sal=" + sal + "]";
 	}
+	
 	
 }
