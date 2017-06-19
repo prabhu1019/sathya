@@ -4,6 +4,7 @@ public class Employee {
 
 	private int id;
 	private String name;
+	priate double sal;
 	public int getId() {
 		return id;
 	}
