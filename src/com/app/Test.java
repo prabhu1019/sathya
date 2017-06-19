@@ -5,7 +5,7 @@ public class Test {
 	public static void main(String[] args) {
 		
 		Employee emp=new Employee();
-		emp.setId(10);
+		emp.setId(123);
 		
 		emp.setSal(25.56);
 		System.out.println(emp);
