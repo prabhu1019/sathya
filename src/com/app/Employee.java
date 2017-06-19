@@ -28,6 +28,9 @@ public class Employee {
 	public String toString() {
 		return "Employee [id=" + id + ", name=" + name + ", sal=" + sal + "]";
 	}
+	public Employee() {
+		super();
+	}
 	
 	
 }
