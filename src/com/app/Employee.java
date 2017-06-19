@@ -18,9 +18,6 @@ public class Employee {
 		this.name = name;
 	}
 	
-	public double getSal() {
-		return sal;
-	}
 	public void setSal(double sal) {
 		this.sal = sal;
 	}
