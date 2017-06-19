@@ -6,8 +6,9 @@ public class Test {
 		
 		Employee emp=new Employee();
 		emp.setId(10);
-		emp.setName("AA");
+		
 		emp.setSal(25.56);
 		System.out.println(emp);
+		emp.setName("bbb");
 	}
 }
